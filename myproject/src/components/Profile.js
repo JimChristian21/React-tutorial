@@ -1,7 +1,9 @@
 const Profile = (props) => {
-    console.log(props);
+
+    const {name, lastname} = props;
+
     return (
-        <h1>Name: {props.name} {props.lastname}</h1>
+        <h1>Name: {name} {lastname}</h1>
     )
 }
 
