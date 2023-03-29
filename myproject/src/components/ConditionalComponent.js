@@ -4,20 +4,19 @@ import FunctionalCounter from "./FunctionalCounter";
 
 export default function ConditionalComponent() {
 
-    const [display, setDisplay] = useState(false);
+    const [display, setDisplay] = useState(true);
     let output;
 
-    if (display) {
-        output = <div>
-            <h3>This is a conditional component</h3>
-            <Counter/>
-        </div>
-    } else {
-        output = <div>
-            <h3>Nothing to see here</h3>
-            <FunctionalCounter/>
-        </div>
-    }
-
-    return (output);
+    return display ? (
+            <div>
+                <h3>This is a conditional component</h3>
+                <Counter/>
+            </div>
+        )
+        : (
+            <div>
+                <h3>Nothing to see here</h3>
+                <FunctionalCounter/>
+            </div>
+        );
 }
