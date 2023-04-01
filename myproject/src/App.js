@@ -5,12 +5,13 @@ import './App.css';
 // import Counter from "./components/Counter.js";
 // import FunctionalCounter from './components/FunctionalCounter.js';
 // import ConditionalComponent from './components/ConditionalComponent.js';
-import Product from './components/Product.js';
+// import Product from './components/Product.js';
+import Form from './components/Form.js';
 
 function App() {
   return (
     <div className="App">
-      <Product/>
+      <Form/>
     </div>
   );
 }
