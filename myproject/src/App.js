@@ -7,11 +7,12 @@ import './App.css';
 // import ConditionalComponent from './components/ConditionalComponent.js';
 // import Product from './components/Product.js';
 import Form from './components/Form.js';
+import FragmentComponent from './components/FragmentComponent.js';
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <FragmentComponent/>
     </div>
   );
 }
