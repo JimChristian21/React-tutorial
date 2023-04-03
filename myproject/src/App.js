@@ -9,11 +9,12 @@ import './App.css';
 import Form from './components/Form.js';
 import FragmentComponent from './components/FragmentComponent.js';
 import Table from './components/Table';
+import Parent from './components/Parent';
 
 function App() {
   return (
     <div className="App">
-      <Table/>
+      <Parent/>
     </div>
   );
 }
